@@ -8,69 +8,75 @@
     <link href="http://fonts.googleapis.com/css?family=Abel|Medula+One" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv-printshiv.min.js"></script>
+<![endif]-->
+
+<!--[if lte IE 6]>
+<style>#top, #bottom, #left, #right { display: none; }</style>
+<![endif]-->
 </head>
 <body>
 
 <!--Header-->
+
 <header>
   <h1>Lauren Elizabeth Fernandez</h1>
-  <p>Professional Resume</p>
+  <h2>Marketer, designer, & front-end web developer</h2>
 </header>
 <!--End Header-->
 <!--Nav--->
 
     <div id="nav">
          <ul>
-             <li><a href="#education">Education</a></li>
-             <li><a href="#experience">Experience</a></li>
-             <li><a href="#skills">Skills</a></li>
-             <li><a href="#interests">Interests</a></li>
-             <li><a href="#contact">Contact</a></li>
+             <a href="#education">Education</a>
+             <a href="#experience">Experience</a>
+             <a href="#skills">Skills</a>
+             <a href="#interests">Interests</a>
          </ul>
     </div>
 <!--End Nav-->
 
 <!--Main Content-->
-<section>
-    <div id="page1">
+<main>
+    <figure>
+    <img src="img/headshot.jpg" alt="Lauren Fernandez">
+    </figure>
+    
+    <section id="page1">
         <a id="education" class="smooth"></a>
         <h1> Education </h1>
         <p>Education page content goes here.</p>
-    </div>
 </section>
 
-<section>
-    <div id="page2">
+<section id="page2">
         <a id="experience" class="smooth"></a>
         <h1>Experience</h1>
         <p>Experience page content goes here.</p>
-    </div>
 </section>
 
-<section>
-    <div id="page3">
+<section id="page3">
         <a id="skills" class="smooth"></a>
         <h1>Skills</h1>
         <p>Skills page content goes here.</p>
-    </div>
 </section>
 
-<section>
-    <div id="page4">
+<section id="page4">
         <a id="interests" class="smooth"></a>
         <h1>Interests</h1>
         <p>Interests page content goes here.</p>
-    </div>
 </section>
+</main>
 
-<section>
-    <div id="page5">
-        <a id="contact" class="smooth"></a>
-        <h1>Contact me</h1>
-        <p>Contact page content goes here.</p>
-    </div>
-</section>
+<footer>
+  <p>Posted by: Lauren Fernandez</p>
+  <p>Contact information: 646-469-8801 | <a href="mailto:someone@example.com">
+  lfernan60@ufl.edu</a>.</p>
+</footer>
 
-    <script src="js/main.js"></script>
+
+<script src="js/main.js"></script>
+</div>
 </body>
 </html>

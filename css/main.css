@@ -8,22 +8,80 @@ html {
     box-sizing: inherit;
 }
 
-.site-container {
-    max-width: 1200px;
+
+main {
+	width: 90%;
+	margin: auto;
+	background-color: #FFFFFF;
+	max-width: 1200px;
 }
 
-/*Fonts*/
+body {
+background-color: #ADD8E6;
+;
+}
+/*Styles*/
 h1 {
     font-family: 'Medula One', cursive;
     font-weight: normal;
     line-height: 46px;
-    font-size: 52px;
+    font-size: 4rem;
     margin: 0 0 23px 0;
+    color: #F08080;
     }
-p {
+h2 {
     font-family: 'Abel', sans-serif;
-    font-size: 17px;
+    font-size: 1.5rem;
     line-height: 23px;
     margin: 0 0 23px 0;
     }
-/*end fonts*/
+
+p {
+    font-family: 'Abel', sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+
+nav {
+    font-family: 'Abel', sans-serif;
+}
+
+img {
+    width: 50%;
+    display: block;
+	max-width: 600px;
+}
+
+/*end styles*/
+
+/* Header */
+
+/* End Header */
+
+/* Nav */
+
+/* End Nav */
+
+/* Sections */
+section {
+
+}
+
+#page1 {
+
+}
+#page2 {
+
+}
+#page3 {
+
+}
+#page4 {
+
+}
+/* End sections */
+
+/* Footer */
+
+/* End footer */
