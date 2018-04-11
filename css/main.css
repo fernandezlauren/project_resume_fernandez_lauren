@@ -19,10 +19,6 @@ header h2{
     text-align: center;
 }
 
-#list {
-
-}
-
 /* Style the links inside the navigation bar */
 #navbar {
   overflow: hidden;
@@ -35,7 +31,7 @@ header h2{
     color: #000000;
     text-align: center;
     padding: 14px 16px;
-    font-size: 17px;
+    font-size: 1rem;
 }
 
 #navbar a:hover {
@@ -66,6 +62,7 @@ main {
 	margin: auto;
 	background-color: #FFFFFF;
 	max-width: 1200px;
+    padding-bottom: 5%;
 }
 
 main img {
@@ -113,6 +110,7 @@ img {
     width: 50%;
     display: block;
 	max-width: 600px;
+    min-width: 250px;
 }
 
 section {
@@ -125,4 +123,5 @@ footer{
     text-align: center;
     overflow: hidden;
     background-color: #d3d3d3;
+    padding-top: 2%;
 }
