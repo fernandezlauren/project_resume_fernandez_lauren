@@ -7,7 +7,17 @@ html {
 *:after {
     box-sizing: inherit;
 }
+header{
+    padding-top: 3%;
+}
 
+header h1{
+    text-align: center;
+}
+
+header h2{
+    text-align: center;
+}
 
 main {
 	width: 90%;
@@ -63,35 +73,12 @@ img {
 	max-width: 600px;
 }
 
-/*end styles*/
-
-/* Header */
-
-/* End Header */
-
-/* Nav */
-
-/* End Nav */
-
-/* Sections */
 section {
-
+padding-bottom: 3%;
+padding-top: 3%;
+padding-left: 2%;
 }
 
-#page1 {
-
+footer{
+    text-align: center;
 }
-#page2 {
-
-}
-#page3 {
-
-}
-#page4 {
-
-}
-/* End sections */
-
-/* Footer */
-
-/* End footer */
