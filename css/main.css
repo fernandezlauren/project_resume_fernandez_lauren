@@ -16,6 +16,12 @@ main {
 	max-width: 1200px;
 }
 
+main img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 body {
 background-color: #ADD8E6;
 ;
@@ -43,7 +49,11 @@ p {
     margin: 0 0 23px 0;
     }
 
-nav {
+li {
+    font-family: 'Abel', sans-serif;
+}
+
+ul {
     font-family: 'Abel', sans-serif;
 }
 
