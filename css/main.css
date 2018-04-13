@@ -125,3 +125,14 @@ footer{
     background-color: #d3d3d3;
     padding-top: 2%;
 }
+
+.tingle-demo{
+    display: none;
+}
+
+.btn {
+font-family: 'Abel', sans-serif;
+font-size: 1rem;
+line-height: 23px;
+margin: 0 0 23px 0;
+}
